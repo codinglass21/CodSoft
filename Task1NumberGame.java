@@ -73,18 +73,18 @@ class Game {
 		}
 		else if ( noOfGuesses < 10 && userInput > systemInput ) {
 			if ( userInput - systemInput > 10 ) {
-				System.out.println("Too High");
+				System.out.println("It's Too High");
 			}
 			else {
-				System.out.println("Little High");
+				System.out.println("It's Little High");
 			}
 		}
 		else if ( noOfGuesses < 10 && userInput < systemInput ) {
 			if ( systemInput - userInput > 10 ) {
-				System.out.println("Too low");
+				System.out.println("It's Too low");
 			}
 			else {
-				System.out.println("Little low");
+				System.out.println("It's Little low");
 			}
 		}
 		return false;
